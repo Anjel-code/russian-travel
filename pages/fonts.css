@@ -2,4 +2,12 @@
     src: url(../fonts/Inter-Regular.woff2);
     font-family: 'Inter';
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    src: url(../fonts/Inter-ExtraBold.woff2);
+    font-family: 'Inter';
+    font-weight: 900;
+    font-style: normal;
 }
