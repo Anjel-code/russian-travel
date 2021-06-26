@@ -5,4 +5,13 @@
     font-size: 16px;
     line-height: 26px;
     color: #fff;
+    margin: 40px 0 0 0;
+    max-width: 690px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro__text {
+        max-width: 720px;
+    }
 }
