@@ -6,6 +6,7 @@
     bottom: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: rgba(42, 44, 47, .3);
     text-decoration: none;
@@ -13,11 +14,4 @@
 
 .cover__overlay:hover {
     background-color: rgba(42, 44, 47, .8);
-}
-
-
-@media screen and  (min-width: 320px) and (max-width: 767px) {
-    .cover__overlay {
-        justify-content: center;
-    }
 }
